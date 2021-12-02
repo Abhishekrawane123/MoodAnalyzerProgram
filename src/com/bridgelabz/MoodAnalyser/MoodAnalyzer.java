@@ -1,29 +1,27 @@
 package com.bridgelabz.MoodAnalyser;
 
-public class MoodAnalyzer
-{
-	public static MoodAnalyzer instance;
-   
-	private String message;
-    
-    public MoodAnalyzer(String message) 
-    {
-        this.message = message;
-    }
-    
-    public static MoodAnalyzer getInstance(String userMessage) {
-		if (instance == null) {
-			instance = new MoodAnalyzer(userMessage);
+public class MoodAnalyzer {
+	
+	public String message;
+	
+	public MoodAnalyzer() {
+		
+	}
+	
+	public MoodAnalyzer(String message) {
+		
+		this.message = message;
+		
+	}
+	
+	public String analyzerMood() {
+		
+		if(message.contains("happy")) {
+			return "HAPPY";
+		}else {
+			return "SAD";
 		}
-		return instance;
 	}
 
-    public String analyseMood()
-    {
-        if(message.contains("SAD"))
-            return "SAD";
-        else
-            return "HAPPY";
-        
-    }
+	
 }
