@@ -1,6 +1,6 @@
-package com.bridgelabz.MoodAnalyser;
+package com.bridgelabz.mood_analyzer;
 
-import com.bridgelabz.MoodAnalyser.MoodAnalysisException.Mood;
+import com.bridgelabz.mood_analyzer.MoodAnalysisException.Mood;
 
 public class MoodAnalyzer {
 	public static MoodAnalyzer instance;

@@ -1,8 +1,8 @@
-package com.bridgelabz.MoodAnalyser;
+package com.bridgelabz.mood_analyzer;
 
 import java.util.Scanner;
 
-public class MoodAnalyzerMain {
+public class Main {
 
 	public static void main(String[] args) throws MoodAnalysisException {
 
